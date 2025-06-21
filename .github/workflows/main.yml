@@ -5,6 +5,7 @@ name: Trigger auto deployment for demo-container
 env:
   AZURE_CONTAINER_APP_NAME: demo-container
   AZURE_GROUP_NAME: demo-container
+  REPO: ${{ github.actor }}/rag-deployment-cloud 
 
 on:
   # Trigger manually
@@ -13,8 +14,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      REPO: ghcr.io/lakshayrahal/rag-deployment-cloud
 
     steps:
       - name: Checkout to the branch
