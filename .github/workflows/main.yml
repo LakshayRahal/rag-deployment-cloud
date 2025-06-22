@@ -4,6 +4,8 @@ permissions: write-all
 env:
   AZURE_CONTAINER_APP_NAME: demo-container
   AZURE_GROUP_NAME: demo-container
+  REPO: lakshayrahal/rag-deployment-cloud
+
 
 on:
   workflow_dispatch:
