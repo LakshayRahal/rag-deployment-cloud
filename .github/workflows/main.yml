@@ -59,7 +59,7 @@ jobs:
               -n ${{ env.AZURE_CONTAINER_APP_NAME }} \
               -g ${{ env.AZURE_GROUP_NAME }} \
               --server ghcr.io \
-              --username lakshayrahal \  # Replace with your GitHub username
+              --username LakshayRahal \  # Replace with your GitHub username
               --password ${{ secrets.PAT }}
 
             # Update container app with image, env vars, CPU, and memory
