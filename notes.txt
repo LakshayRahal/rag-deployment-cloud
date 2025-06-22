@@ -1,0 +1,6 @@
+| Secret Name              | You Get It From                        | You Paste It Into   |
+| ------------------------ | -------------------------------------- | ------------------- |
+| `AZURE_CREDENTIALS`      | Azure CLI / Cloud Shell JSON           | GitHub Repo Secrets |
+| `PAT`                    | GitHub → Developer Settings → Tokens   | GitHub Repo Secrets |
+| `OPENAI_API_KEY`         | Azure Portal → OpenAI → Keys           | GitHub Repo Secrets |
+| `SEARCH_SERVICE_API_KEY` | Azure Portal → Cognitive Search → Keys | GitHub Repo Secrets |
